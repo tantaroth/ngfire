@@ -1,0 +1,6 @@
+<div class="container">
+    <!-- anything typed in here is magically saved to our Firebase database! -->
+    <input type="text" ng-model="login.data.text" ng-change="addData()"/>
+    <!-- all changes from our Firebase database magically appear here! -->
+    <h1>You said: {{ login.data.text }}</h1>
+</div>
